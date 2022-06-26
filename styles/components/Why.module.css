@@ -1,0 +1,38 @@
+.Why {
+  margin-top: 15rem;
+}
+
+.VideoMask {
+  position: relative;
+  min-height: 10rem;
+  height: 100%;
+}
+
+/* .Video {
+  object-fit: cover;
+} */
+
+.Play svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 5rem;
+  width: 5rem;
+  filter: drop-shadow(0 0 2rem var(--black));
+}
+
+@media (min-width: 1023px) {
+  .Play svg {
+    height: 10rem;
+    width: 10rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+  .Play svg:hover {
+    transform: scale(1.1);
+  }
+}

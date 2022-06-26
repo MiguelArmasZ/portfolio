@@ -1,0 +1,40 @@
+.Form {
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+  border-radius: var(--radius-l);
+  padding: 5rem 3rem;
+  background: var(--circle-black);
+}
+
+.Field {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.Field:first-of-type {
+  margin-top: 0;
+}
+
+.Label {
+  text-transform: capitalize;
+}
+
+.Input {
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: none;
+  background-color: var(--overcast);
+  color: var(--white);
+}
+
+.Submit {
+  margin-top: 3rem;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  padding: 2rem;
+}

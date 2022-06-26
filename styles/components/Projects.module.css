@@ -1,0 +1,81 @@
+.Projects {
+  display: grid;
+  gap: 20rem;
+}
+
+@media (min-width: 1023px) {
+  .Projects {
+    gap: 40rem;
+    margin-bottom: 35rem;
+  }
+}
+
+.Project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20rem;
+  height: 100%;
+}
+
+@media (min-width: 1023px) {
+  .Project:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1023px) {
+  .Project {
+    gap: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.WrapPhotos {
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 1023px) {
+  .WrapInfo {
+    flex: 0 0 35%;
+  }
+}
+
+.Mobile {
+  position: absolute;
+  bottom: -15rem;
+  right: 0;
+  width: 100%;
+  max-width: 13rem;
+}
+
+@media (min-width: 1023px) {
+  .Mobile {
+    max-width: 23rem;
+  }
+}
+
+.Domain {
+  text-align: center;
+  font-family: var(--base);
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--primary);
+}
+
+@media (min-width: 1023px) {
+  .Domain {
+    font-size: 3rem;
+  }
+}
+
+.Description {
+  margin-top: 3rem;
+}
+
+.Cta {
+  margin-top: 5rem;
+}

@@ -1,0 +1,51 @@
+.Settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 30%;
+}
+
+@media (min-width: 1023px) {
+  .Settings {
+    flex: 0 0 10rem;
+  }
+}
+
+.Lang {
+  display: flex;
+  position: relative;
+}
+
+.Planet.active {
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.Flag,
+.Planet,
+.Mode {
+  max-width: 3rem;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.Planet:hover,
+.Mode:hover {
+  transform: translateY(-0.5rem);
+}
+
+.Flag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scale(0) translateX(0);
+  transition: transform 0.5s, z-index 0.5s;
+}
+
+.Flag.active {
+  z-index: 1;
+  transform: scale(1) translateX(-5rem);
+}

@@ -1,0 +1,14 @@
+.Services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+@media (min-width: 1023px) {
+  .Services {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

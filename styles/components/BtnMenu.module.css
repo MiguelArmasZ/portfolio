@@ -1,0 +1,49 @@
+.BtnMenu {
+  background-color: var(--gray);
+  width: 6rem;
+  height: 6rem;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  border-radius: 100%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1.8rem;
+  align-items: center;
+  box-shadow: 0 0 0.5rem var(--abs);
+  z-index: 200;
+  transition: opacity 0.5s;
+}
+
+@media (min-width: 1023px) {
+  .BtnMenu {
+    display: none;
+  }
+}
+
+.BtnMenu.active {
+  opacity: 1;
+}
+
+.BtnMenu.active .Line:nth-child(1) {
+  transform: rotate(35deg) translate(5px, 5px);
+}
+.BtnMenu.active .Line:nth-child(2) {
+  opacity: 0;
+}
+.BtnMenu.active .Line:nth-child(3) {
+  transform: rotate(-35deg) translate(4px, -4px);
+}
+
+.Line {
+  height: 2px;
+  width: 100%;
+  background-color: var(--black);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.Line:nth-child(2) {
+  width: 60%;
+}

@@ -1,0 +1,126 @@
+.content {
+  width: 95%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  min-height: 100vh;
+  margin-top: 15rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 10rem;
+}
+
+@media (min-width: 1023px) {
+  .heading {
+    font-size: 5rem;
+  }
+}
+
+.heading--long {
+  font-family: var(--base);
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-bottom: 10rem;
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 1rem;
+  max-width: 15ch;
+}
+
+@media (min-width: 1023px) {
+  .heading--long {
+    font-size: 6.5rem;
+    text-align: left;
+  }
+}
+
+.heading--contact {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: var(--primary);
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  text-transform: uppercase;
+  transition: transform 0.5s;
+}
+
+@media (min-width: 1023px) {
+  .btn:hover {
+    transform: scale(1.05);
+  }
+}
+
+.social-icon,
+.social-icon svg {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.social-icon::before {
+  content: '';
+  width: inherit;
+  height: inherit;
+  background-color: var(--primary);
+  position: absolute;
+  border-radius: 100%;
+  z-index: -1;
+  transform: scale(0);
+  transition: transform 0.5s, color 0.5s;
+}
+
+.social-icon:hover::before {
+  transform: scale(2);
+}
+
+.title-gradient {
+  background: linear-gradient(
+    45deg,
+    var(--white) 40%,
+    var(--primary) 60%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.feedback {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: var(--radius);
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s, transform 0.5s, margin 0.5s;
+  background: linear-gradient(rgb(1, 93, 33), rgb(8, 35, 0));
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.feedback.active {
+  opacity: 1;
+  transform: scale(1);
+  margin: 3rem 0;
+}
+
+.feedback.error {
+  background: linear-gradient(rgb(157, 2, 2), rgb(29, 0, 0));
+}

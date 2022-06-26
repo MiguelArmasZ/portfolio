@@ -1,0 +1,39 @@
+.Footer {
+  margin-top: 10rem;
+  padding: 5rem 0;
+}
+
+.Wrap {
+  border-top: 1px solid var(--dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+@media (min-width: 1023px) {
+  .Wrap {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.Logo {
+  filter: drop-shadow(0 0 0.3rem var(--white));
+}
+
+.Name {
+  margin-top: 3rem;
+  color: var(--overcast);
+}
+
+.Name::first-letter {
+  text-transform: lowercase;
+}
+
+.Social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}

@@ -1,0 +1,22 @@
+.Modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+}
+
+.Exit svg {
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+  position: absolute;
+  top: 10rem;
+  right: 5%;
+  cursor: pointer;
+}

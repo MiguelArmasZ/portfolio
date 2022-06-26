@@ -1,0 +1,26 @@
+.flash {
+  animation: flash 1s ease 1;
+}
+
+@keyframes flash {
+  0%,
+  100% {
+    color: var(--white);
+  }
+  50% {
+    color: var(--primary);
+  }
+}
+
+.fade {
+  animation: fade 0.5s ease 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,46 @@
+.Service {
+  width: 100%;
+  max-width: 45rem;
+  border-radius: var(--radius-l);
+  border: 2px solid var(--dark);
+  padding: 10rem 3rem 3rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--circle-black);
+  min-height: 63rem;
+}
+
+.Heading {
+  position: absolute;
+  font-family: var(--base);
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: var(--abs);
+  width: 100%;
+  text-align: center;
+}
+
+.Description {
+  margin-bottom: 3rem;
+  line-height: 2;
+}
+
+.Description::first-letter {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.Icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.Cta {
+  margin-top: 5rem;
+}

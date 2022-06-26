@@ -1,0 +1,112 @@
+body.light {
+  background-color: var(--light);
+}
+
+body.light p,
+body.light h2,
+body.light h3 {
+  color: var(--black);
+}
+
+body.light .social-icon {
+  color: var(--black);
+}
+
+body.light .social-icon:hover {
+  color: var(--white);
+}
+
+body.light .Header {
+  background: linear-gradient(45deg, var(--gray), var(--white));
+  box-shadow: 0 0 1rem var(--overcast);
+}
+
+@media (max-width: 1023px) {
+  body.light .Navbar::before,
+  body.light .Navbar::after {
+    background: var(--gradient-white);
+  }
+}
+
+body.light .BtnMenu {
+  background-color: var(--black);
+  box-shadow: 0 0 4rem var(--overcast);
+}
+
+body.light .BtnMenu span {
+  background-color: var(--white);
+}
+
+body.light .Link {
+  color: var(--black);
+}
+
+body.light .Link:hover {
+  color: var(--white);
+}
+
+body.light .Tagline {
+  color: var(--dark);
+}
+
+body.light .title-gradient {
+  background: linear-gradient(
+    45deg,
+    var(--black) 40%,
+    var(--primary) 60%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+body.light .Card-Service {
+  background: var(--circle-white);
+  border: 2px solid var(--gray);
+}
+
+body.light .Card-Icon {
+  color: var(--black);
+}
+
+body.light .Card-Heading {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+body.light .Reviews-Bg {
+  background: var(--circle-white);
+}
+
+body.light .Review {
+  border: 2px solid var(--overcast);
+}
+
+body.light .Review-Logo {
+  filter: drop-shadow(0 0 0.3rem var(--overcast));
+}
+
+body.light .Review-Link {
+  color: var(--dark);
+}
+
+body.light .Form {
+  background: var(--circle-white);
+}
+
+body.light .Label {
+  color: var(--black);
+}
+
+body.light .Input {
+  background-color: var(--white);
+  border: 1px solid var(--overcast);
+}
+
+body.light .Footer-Wrap {
+  border-top: 1px solid var(--overcast);
+}
+
+body.light .feedback {
+  color: var(--white);
+}

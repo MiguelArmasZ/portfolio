@@ -1,0 +1,98 @@
+.Above {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+@media (min-width: 1023px) {
+  .Above {
+    margin-top: 0;
+    flex-direction: row;
+    min-height: calc(90vh);
+  }
+}
+
+.Title {
+  font-size: 3.7rem;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+@media (min-width: 1023px) {
+  .Title {
+    font-size: 8rem;
+    text-align: left;
+  }
+}
+
+.Tagline {
+  font-size: 2rem;
+  color: var(--gray);
+}
+
+@media (min-width: 1023px) {
+  .Tagline {
+    font-size: 3rem;
+    color: var(--gray);
+  }
+}
+
+.Slogan {
+  max-width: 30ch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+@media (min-width: 1023px) {
+  .Slogan {
+    font-size: 4rem;
+    max-width: 30ch;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 1.2;
+  }
+}
+
+.Tagline,
+.Slogan {
+  text-align: center;
+}
+
+@media (min-width: 1023px) {
+  .Tagline,
+  .Slogan {
+    text-align: left;
+  }
+}
+
+.WrapPhoto {
+  margin-top: 5rem;
+  flex: 0 0 23%;
+  width: 60%;
+}
+
+@media (min-width: 768px) {
+  .WrapPhoto {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1023px) {
+  .WrapPhoto {
+    margin-top: 0;
+  }
+}
+
+.Photo {
+  border-radius: 100%;
+}
+
+.Social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}

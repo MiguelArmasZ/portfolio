@@ -1,0 +1,22 @@
+.Header {
+  background: linear-gradient(45deg, var(--abs), var(--dark));
+  box-shadow: 0 0 4rem var(--black);
+  padding: 0.5rem 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1050;
+}
+
+.Wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  filter: drop-shadow(0 0 0.3rem var(--white));
+  cursor: pointer;
+}

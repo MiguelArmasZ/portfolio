@@ -1,0 +1,6 @@
+export * from './Above'
+export * from './Services'
+export * from './Projects'
+export * from './Reviews'
+export * from './Why'
+export * from './Contact'
