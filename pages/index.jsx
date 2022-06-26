@@ -10,7 +10,7 @@ import {
 
 const HomePage = () => {
   return (
-    <Layout>
+    <Layout title='▷ Miguel Armas - Desarrollador Web'>
       <Above />
       <Projects />
       <Services />
