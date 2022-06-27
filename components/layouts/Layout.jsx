@@ -37,6 +37,10 @@ export const Layout = ({ children, title }) => {
           type='image/png'
           href={`${origin}/img/mark/logo.png`}
         />
+        <meta
+          name='google-site-verification'
+          content='Ns3n6eufnFHpwlhnaFme1GbdsjJ3D2MTLponKOf9su4'
+        />
         <meta name='google' content='notranslate' />
       </Head>
       <Header />
