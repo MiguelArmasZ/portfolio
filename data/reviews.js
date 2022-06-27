@@ -36,7 +36,7 @@ const dentalcosmeticsmile = new Review(
     en: 'I hired Miguel to create a simple website to complement my social networks. I am delighted with his work, 100% recommendable.'
   },
   Dentalcosmeticsmile,
-  'anais',
+  'anais lerminez',
   'dentalcosmeticsmile.com',
   'https://dentalcosmeticsmile.com/'
 )
