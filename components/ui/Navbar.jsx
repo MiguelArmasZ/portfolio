@@ -46,7 +46,10 @@ export const Navbar = () => {
           })
         : links.map(({ href, text }, i) => {
             return (
-              <Link key={text[lang]} href={`/#${href}`}>
+              <Link
+                key={text[lang]}
+                href={`${href.includes('/') ? href : `/#${href}`}`}
+              >
                 <a onClick={handleMenu} className={`${s.Link} Link`}>
                   {text[lang]}
                 </a>

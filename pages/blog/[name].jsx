@@ -45,7 +45,9 @@ const PostPage = () => {
                 href={repo}
               >
                 {repoText[lang]}
-                <Icon css={s.Icon} icon={faGithub} />
+                <span>
+                  <Icon css={s.Icon} icon={faGithub} />
+                </span>
               </a>
               <a
                 target='_blank'
@@ -54,7 +56,9 @@ const PostPage = () => {
                 href={code}
               >
                 {codeText[lang]}
-                <Icon css={s.Icon} icon={faCode} />
+                <span>
+                  <Icon css={s.Icon} icon={faCode} />
+                </span>
               </a>
             </div>
           </div>

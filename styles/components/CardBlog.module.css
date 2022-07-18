@@ -118,8 +118,8 @@
   border-radius: var(--radius);
   text-transform: capitalize;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
   transition: transform 0.5s;
 }
@@ -135,5 +135,5 @@
 }
 
 .Icon {
-  max-width: 3rem;
+  width: 3rem;
 }
