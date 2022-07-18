@@ -62,4 +62,10 @@
     rgb(112, 13, 13) 10%,
     var(--black)
   );
+
+  --circle-rose: radial-gradient(
+    circle at 100% 100%,
+    rgb(112, 13, 107) 10%,
+    var(--black)
+  );
 }

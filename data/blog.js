@@ -4,7 +4,8 @@ import {
   firstLetterPost,
   wordCounterPost,
   jumpLinksPost,
-  flashEffectPost
+  flashEffectPost,
+  scrollToTopPost
 } from './posts'
 
 import HTML from '../public/img/stack/html.svg'
@@ -26,7 +27,7 @@ const stack = {
 }
 
 const currencyFormat = new CardBlog(
-  'currency-format',
+  'formato-moneda',
   {
     es: 'dale un formato de moneda a valores númericos',
     en: 'give a currency format to numeric values'
@@ -41,7 +42,7 @@ const currencyFormat = new CardBlog(
 )
 
 const firstLetter = new CardBlog(
-  'first-letter',
+  'primera-letra',
   {
     es: 'aplica estilos a la primera letra de cada texto',
     en: 'apply styles to the first letter of each text'
@@ -56,7 +57,7 @@ const firstLetter = new CardBlog(
 )
 
 const wordCounter = new CardBlog(
-  'word-counter',
+  'contador-de-palabras',
   {
     es: 'creamos un contador de palabras y caracteres',
     en: 'we create a word and character counter'
@@ -86,7 +87,7 @@ const jumpLinks = new CardBlog(
 )
 
 const flashEffect = new CardBlog(
-  'flash-effect',
+  'efecto-destello',
   {
     es: 'efecto de destello para tus titulares',
     en: 'sparkle effect for your headlines'
@@ -100,10 +101,26 @@ const flashEffect = new CardBlog(
   flashEffectPost
 )
 
+const scrollToTop = new CardBlog(
+  'scroll-to-top',
+  {
+    es: 'volver arriba',
+    en: 'scroll to top'
+  },
+  {
+    es: 'Aprende cómo hacer un Scroll To Top. Muy fácil y con una animación suavizada para mejorar la experiencia de usuario.',
+    en: 'Learn how to make a Scroll To Top. Very easy and with a smoothed animation to improve the user experience.'
+  },
+  [stack.JS],
+  'rose',
+  scrollToTopPost
+)
+
 export const posts = [
   currencyFormat,
   firstLetter,
   wordCounter,
   jumpLinks,
-  flashEffect
+  flashEffect,
+  scrollToTop
 ]

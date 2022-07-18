@@ -118,6 +118,10 @@
   background: var(--circle-red);
 }
 
+.rose {
+  background: var(--circle-rose);
+}
+
 .hide {
   opacity: 0;
 }

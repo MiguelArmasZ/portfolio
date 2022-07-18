@@ -84,3 +84,18 @@ export const flashEffectPost = new Post(
   'https://codesandbox.io/s/relaxed-allen-y0g2g4',
   linksText
 )
+
+export const scrollToTopPost = new Post(
+  {
+    es: 'volver arriba',
+    en: 'scroll to top'
+  },
+  'https://www.youtube.com/embed/kILSmRIkrP0',
+  {
+    es: 'Aprende cómo hacer un Scroll To Top. Muy fácil y con una animación suavizada para mejorar la experiencia de usuario.',
+    en: 'Learn how to make a Scroll To Top. Very easy and with a smoothed animation to improve the user experience.'
+  },
+  'https://github.com/MiguelArmasZ/scroll-to-top',
+  'https://codesandbox.io/s/flamboyant-albattani-jjd50e',
+  linksText
+)
