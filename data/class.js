@@ -45,3 +45,24 @@ export class Review {
     this.href = href
   }
 }
+export class CardBlog {
+  constructor(href, title, description, stack, bg, post) {
+    this.href = href
+    this.title = title
+    this.description = description
+    this.stack = stack
+    this.bg = bg
+    this.post = post
+  }
+}
+
+export class Post {
+  constructor(title, iframe, description, repo, code, linksText) {
+    this.title = title
+    this.iframe = iframe
+    this.description = description
+    this.repo = repo
+    this.code = code
+    this.linksText = linksText
+  }
+}

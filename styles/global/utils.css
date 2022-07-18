@@ -7,7 +7,7 @@
 
 .section {
   min-height: 100vh;
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
 .heading {
@@ -98,6 +98,26 @@
   background-clip: text;
 }
 
+.green {
+  background: var(--circle-green);
+}
+
+.blue {
+  background: var(--circle-blue);
+}
+
+.violet {
+  background: var(--circle-violet);
+}
+
+.orange {
+  background: var(--circle-orange);
+}
+
+.red {
+  background: var(--circle-red);
+}
+
 .hide {
   opacity: 0;
 }
@@ -123,4 +143,20 @@
 
 .feedback.error {
   background: linear-gradient(rgb(157, 2, 2), rgb(29, 0, 0));
+}
+
+.html {
+  background-color: #ef652a;
+}
+
+.css {
+  background-color: #1b73ba;
+}
+
+.js {
+  background-color: #f0db4f;
+}
+
+.react {
+  background-color: #444;
 }

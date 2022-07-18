@@ -24,14 +24,14 @@ const reviews = new Link(
   },
   false
 )
-// const blog = new Link(
-//   '/blog',
-//   {
-//     es: 'blog',
-//     en: 'blog'
-//   },
-//   true
-// )
+const blog = new Link(
+  '/blog',
+  {
+    es: 'blog',
+    en: 'blog'
+  },
+  true
+)
 const contact = new Link(
   'contact',
   {
@@ -42,5 +42,5 @@ const contact = new Link(
 )
 
 export const navbarData = {
-  links: [sites, services, reviews, contact]
+  links: [sites, services, reviews, contact, blog]
 }

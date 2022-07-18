@@ -31,9 +31,11 @@
   transition: opacity 0.5s, transform 0.5s;
 }
 
-.Planet:hover,
-.Mode:hover {
-  transform: translateY(-0.5rem);
+@media (min-width: 1023px) {
+  .Planet:hover,
+  .Mode:hover {
+    transform: translateY(-0.5rem);
+  }
 }
 
 .Flag {

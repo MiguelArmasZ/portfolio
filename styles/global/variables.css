@@ -26,9 +26,40 @@
     var(--black) 10%,
     var(--dark)
   );
+
   --circle-white: radial-gradient(
     circle at 100% 100%,
     var(--white) 10%,
     var(--gray)
+  );
+
+  --circle-green: radial-gradient(
+    circle at 100% 100%,
+    rgb(4, 64, 4) 10%,
+    var(--black)
+  );
+
+  --circle-blue: radial-gradient(
+    circle at 100% 100%,
+    rgb(6, 71, 99) 10%,
+    var(--black)
+  );
+
+  --circle-violet: radial-gradient(
+    circle at 100% 100%,
+    rgb(40, 4, 64) 10%,
+    var(--black)
+  );
+
+  --circle-orange: radial-gradient(
+    circle at 100% 100%,
+    rgb(158, 90, 8) 10%,
+    var(--black)
+  );
+
+  --circle-red: radial-gradient(
+    circle at 100% 100%,
+    rgb(112, 13, 13) 10%,
+    var(--black)
   );
 }
