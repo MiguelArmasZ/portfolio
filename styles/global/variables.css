@@ -68,4 +68,10 @@
     rgb(112, 13, 107) 10%,
     var(--black)
   );
+
+  --circle-yellow: radial-gradient(
+    circle at 100% 100%,
+    rgb(221, 189, 8) 10%,
+    var(--black)
+  );
 }

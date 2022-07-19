@@ -5,7 +5,8 @@ import {
   wordCounterPost,
   jumpLinksPost,
   flashEffectPost,
-  scrollToTopPost
+  scrollToTopPost,
+  countdownPost
 } from './posts'
 
 import HTML from '../public/img/stack/html.svg'
@@ -116,11 +117,27 @@ const scrollToTop = new CardBlog(
   scrollToTopPost
 )
 
+const countdown = new CardBlog(
+  'cuenta-atras',
+  {
+    es: 'cuenta atrás',
+    en: 'countdown'
+  },
+  {
+    es: 'vamos a hacer un cuenta atrás con JavaScript, que nos muestre los días, horas, minutos y segundos.',
+    en: "let's make a countdown with JavaScript, that shows the days, hours, minutes and seconds.."
+  },
+  [stack.JS],
+  'yellow',
+  countdownPost
+)
+
 export const posts = [
   currencyFormat,
   firstLetter,
   wordCounter,
   jumpLinks,
   flashEffect,
-  scrollToTop
+  scrollToTop,
+  countdown
 ]

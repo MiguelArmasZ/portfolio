@@ -122,6 +122,10 @@
   background: var(--circle-rose);
 }
 
+.yellow {
+  background: var(--circle-yellow);
+}
+
 .hide {
   opacity: 0;
 }

@@ -99,3 +99,18 @@ export const scrollToTopPost = new Post(
   'https://codesandbox.io/s/flamboyant-albattani-jjd50e',
   linksText
 )
+
+export const countdownPost = new Post(
+  {
+    es: 'cuenta atrás',
+    en: 'countdown'
+  },
+  'https://www.youtube.com/embed/NtZPIoImVg4',
+  {
+    es: 'Vamos a hacer un cuenta atrás con JavaScript, que nos muestre los días, horas, minutos y segundos. Recuerda que tmabién podrías obtener el mismo resultado con otras unidades de tiempo, como meses, años o milisegundos.',
+    en: 'We are going to make a countdown with JavaScript, showing us days, hours, minutes and seconds. Remember that you could also get the same result with other time units, such as months, years or milliseconds.'
+  },
+  'https://github.com/MiguelArmasZ/countdown',
+  'https://codesandbox.io/s/wonderful-wright-59on6i',
+  linksText
+)
