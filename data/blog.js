@@ -6,7 +6,8 @@ import {
   jumpLinksPost,
   flashEffectPost,
   scrollToTopPost,
-  countdownPost
+  countdownPost,
+  gradientsPost
 } from './posts'
 
 import HTML from '../public/img/stack/html.svg'
@@ -131,13 +132,28 @@ const countdown = new CardBlog(
   'yellow',
   countdownPost
 )
+const gradients = new CardBlog(
+  'degradados',
+  {
+    es: '3 tipos de degradados',
+    en: '3 types of gradients'
+  },
+  {
+    es: 'mira como crear degradados en CSS. Te enseño 3 de los muchos posibles degradados que se pueden hacer.',
+    en: 'see how to create gradients in CSS. I show you 3 of the many possible gradients that you can make.'
+  },
+  [stack.CSS],
+  'sky',
+  gradientsPost
+)
 
 export const posts = [
-  currencyFormat,
-  firstLetter,
-  wordCounter,
-  jumpLinks,
-  flashEffect,
+  gradients,
+  countdown,
   scrollToTop,
-  countdown
+  flashEffect,
+  jumpLinks,
+  wordCounter,
+  firstLetter,
+  currencyFormat
 ]

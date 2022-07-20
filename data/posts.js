@@ -114,3 +114,18 @@ export const countdownPost = new Post(
   'https://codesandbox.io/s/wonderful-wright-59on6i',
   linksText
 )
+
+export const gradientsPost = new Post(
+  {
+    es: 'degradados',
+    en: 'gradients'
+  },
+  'https://www.youtube.com/embed/_pt-EXpRhc4',
+  {
+    es: 'Te muestro 3 degradados con CSS para que los apliques en tus aplicaciones, son solo algunas posibilidades de las muchas variantes que se pueden llegar a crear.',
+    en: 'I show you 3 gradients with CSS for you to apply in your applications, these are just some possibilities of the many variants that can be created.'
+  },
+  'https://github.com/MiguelArmasZ/gradients',
+  'https://codesandbox.io/s/misty-darkness-v91hul',
+  linksText
+)

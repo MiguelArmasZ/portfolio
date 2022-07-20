@@ -74,4 +74,10 @@
     rgb(221, 189, 8) 10%,
     var(--black)
   );
+
+  --circle-sky: radial-gradient(
+    circle at 100% 100%,
+    rgb(7, 201, 205) 10%,
+    var(--black)
+  );
 }

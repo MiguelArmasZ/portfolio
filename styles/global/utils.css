@@ -126,6 +126,10 @@
   background: var(--circle-yellow);
 }
 
+.sky {
+  background: var(--circle-sky);
+}
+
 .hide {
   opacity: 0;
 }
