@@ -7,7 +7,8 @@ import {
   flashEffectPost,
   scrollToTopPost,
   countdownPost,
-  gradientsPost
+  gradientsPost,
+  sliderPost
 } from './posts'
 
 import HTML from '../public/img/stack/html.svg'
@@ -147,7 +148,23 @@ const gradients = new CardBlog(
   gradientsPost
 )
 
+const slider = new CardBlog(
+  'degradados',
+  {
+    es: 'creamos un slider solo con HTML y CSS',
+    en: 'we create a slider just using HTML and CSS'
+  },
+  {
+    es: 'Exacto, un slider automático sin la necesidad de usar JS. Entra y mira cómo.',
+    en: 'Exactly, an automatic slider without the need to use JS. Enter and see how.'
+  },
+  [stack.HTML, stack.CSS],
+  'aqua',
+  sliderPost
+)
+
 export const posts = [
+  slider,
   gradients,
   countdown,
   scrollToTop,

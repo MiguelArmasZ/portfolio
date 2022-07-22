@@ -130,6 +130,10 @@
   background: var(--circle-sky);
 }
 
+.aqua {
+  background: var(--circle-aqua);
+}
+
 .hide {
   opacity: 0;
 }

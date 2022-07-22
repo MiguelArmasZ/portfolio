@@ -80,4 +80,10 @@
     rgb(7, 201, 205) 10%,
     var(--black)
   );
+
+  --circle-aqua: radial-gradient(
+    circle at 100% 100%,
+    rgb(4, 149, 55) 10%,
+    var(--black)
+  );
 }

@@ -129,3 +129,18 @@ export const gradientsPost = new Post(
   'https://codesandbox.io/s/misty-darkness-v91hul',
   linksText
 )
+
+export const sliderPost = new Post(
+  {
+    es: 'carrusel',
+    en: 'slider'
+  },
+  'https://www.youtube.com/embed/Xgw1k0ZsVfs',
+  {
+    es: 'Mira como podemos crear un slider automatico solo con CSS y Html, es una versión sencilla pero seguro que resuelve muchos casos en los que puedas necesitar un slider.',
+    en: 'See how we can create an automatic slider just with CSS and Html, it is a simple version but it will solve many cases in which you may need a slider.'
+  },
+  'https://github.com/MiguelArmasZ/slider',
+  'https://codesandbox.io/s/trusting-williamson-zikbch',
+  linksText
+)
