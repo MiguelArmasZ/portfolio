@@ -149,7 +149,7 @@ const gradients = new CardBlog(
 )
 
 const slider = new CardBlog(
-  'degradados',
+  'slider',
   {
     es: 'creamos un slider solo con HTML y CSS',
     en: 'we create a slider just using HTML and CSS'
