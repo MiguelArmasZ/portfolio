@@ -8,7 +8,8 @@ import {
   scrollToTopPost,
   countdownPost,
   gradientsPost,
-  sliderPost
+  sliderPost,
+  centerElementsPost
 } from './posts'
 
 import HTML from '../public/img/stack/html.svg'
@@ -163,7 +164,23 @@ const slider = new CardBlog(
   sliderPost
 )
 
+const centerElements = new CardBlog(
+  'centrar-elementos',
+  {
+    es: '3 formas de centrar elementos con CSS',
+    en: '3 ways to center elements with CSS'
+  },
+  {
+    es: 'Aprende 3 sencillas formas de centrar elementos, tanto vertical como horizontalmente con CSS.',
+    en: 'Learn 3 simple ways to center elements both vertically and horizontally with CSS.'
+  },
+  [stack.CSS],
+  'violet',
+  centerElementsPost
+)
+
 export const posts = [
+  centerElements,
   slider,
   gradients,
   countdown,

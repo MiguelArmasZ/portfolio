@@ -144,3 +144,18 @@ export const sliderPost = new Post(
   'https://codesandbox.io/s/trusting-williamson-zikbch',
   linksText
 )
+
+export const centerElementsPost = new Post(
+  {
+    es: 'centrar elementos',
+    en: 'center elements'
+  },
+  'https://www.youtube.com/embed/oMg7t5-Pp3c',
+  {
+    es: 'Aprende como centrar elementos con CSS, tanto vertical como horizontalmente.',
+    en: 'Learn how to center elements with CSS, both vertically and horizontally.'
+  },
+  'https://github.com/MiguelArmasZ/center-elements',
+  'https://codesandbox.io/s/ecstatic-shadow-ckj1yr',
+  linksText
+)
