@@ -145,17 +145,17 @@ export const sliderPost = new Post(
   linksText
 )
 
-export const centerElementsPost = new Post(
+export const addIconsFAPost = new Post(
   {
-    es: 'centrar elementos',
-    en: 'center elements'
+    es: 'añade iconos',
+    en: 'add icons'
   },
-  'https://www.youtube.com/embed/oMg7t5-Pp3c',
+  'https://www.youtube.com/embed/YBHrLSxIfnI',
   {
-    es: 'Aprende como centrar elementos con CSS, tanto vertical como horizontalmente.',
-    en: 'Learn how to center elements with CSS, both vertically and horizontally.'
+    es: 'Mira lo fácil que es añadir iconos a tu aplicación de React gracias a Font Awesome.',
+    en: 'See how easy it is to add icons to your React application thanks to Font Awesome.'
   },
-  'https://github.com/MiguelArmasZ/center-elements',
-  'https://codesandbox.io/s/ecstatic-shadow-ckj1yr',
+  'https://github.com/MiguelArmasZ/add-icons-fa',
+  'https://codesandbox.io/s/still-cloud-bl2dot',
   linksText
 )

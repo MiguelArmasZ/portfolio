@@ -9,7 +9,8 @@ import {
   countdownPost,
   gradientsPost,
   sliderPost,
-  centerElementsPost
+  centerElementsPost,
+  addIconsFAPost
 } from './posts'
 
 import HTML from '../public/img/stack/html.svg'
@@ -179,7 +180,23 @@ const centerElements = new CardBlog(
   centerElementsPost
 )
 
+const addIconsFA = new CardBlog(
+  'agregar-iconos',
+  {
+    es: 'Agrega iconos a tu aplicación de React',
+    en: 'Add icons in your React App'
+  },
+  {
+    es: 'Mira lo fácil que es agregar iconos a tu aplicación de React gracias a Font Awesome.',
+    en: 'See how easy it is to add icons to your React application thanks to Font Awesome.'
+  },
+  [stack.REACT],
+  'red',
+  addIconsFAPost
+)
+
 export const posts = [
+  addIconsFA,
   centerElements,
   slider,
   gradients,
