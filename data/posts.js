@@ -174,3 +174,18 @@ export const addIconsFAPost = new Post(
   'https://codesandbox.io/s/still-cloud-bl2dot',
   linksText
 )
+
+export const clockPost = new Post(
+  {
+    es: 'reloj con js',
+    en: 'clock with js'
+  },
+  'https://www.youtube.com/embed/q7Z0DWsNrQ4',
+  {
+    es: 'hay muchas formas de hacer un reloj con JavaScript, pero aquí verás la forma más corta y fácil de implementar.',
+    en: 'there are many ways to make a clock with JavaScript, but here you will see the shortest and easiest way to implement it.'
+  },
+  'https://github.com/MiguelArmasZ/clock',
+  'https://codesandbox.io/s/unruffled-leaf-1xdrpf',
+  linksText
+)

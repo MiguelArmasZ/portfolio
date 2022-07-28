@@ -10,7 +10,8 @@ import {
   gradientsPost,
   sliderPost,
   centerElementsPost,
-  addIconsFAPost
+  addIconsFAPost,
+  clockPost
 } from './posts'
 
 import HTML from '../public/img/stack/html.svg'
@@ -195,7 +196,23 @@ const addIconsFA = new CardBlog(
   addIconsFAPost
 )
 
+const clock = new CardBlog(
+  'reloj',
+  {
+    es: 'Creamos un reloj con JavaScript con solo 5 líneas de código',
+    en: 'we create a clock with JavaScript use just five code lines.'
+  },
+  {
+    es: 'hay muchas formas de hacer un reloj con JS, pero aquí te muestro la más corta y fácil de implementar.',
+    en: 'There are many ways to make a clock with JS, but here I show you the shortest and easiest to implement.'
+  },
+  [stack.JS],
+  'yellow',
+  clockPost
+)
+
 export const posts = [
+  clock,
   addIconsFA,
   centerElements,
   slider,
