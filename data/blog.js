@@ -11,7 +11,8 @@ import {
   sliderPost,
   centerElementsPost,
   addIconsFAPost,
-  clockPost
+  clockPost,
+  readMorePost
 } from './posts'
 
 import HTML from '../public/img/stack/html.svg'
@@ -200,7 +201,7 @@ const clock = new CardBlog(
   'reloj',
   {
     es: 'Creamos un reloj con JavaScript con solo 5 líneas de código',
-    en: 'we create a clock with JavaScript use just five code lines.'
+    en: 'we create a clock with JavaScript use just five code lines'
   },
   {
     es: 'hay muchas formas de hacer un reloj con JS, pero aquí te muestro la más corta y fácil de implementar.',
@@ -211,7 +212,23 @@ const clock = new CardBlog(
   clockPost
 )
 
+const readMore = new CardBlog(
+  'leer-mas',
+  {
+    es: 'Cómo hacer un leer más con JS',
+    en: 'How to make read more with JS'
+  },
+  {
+    es: 'Con algunas líneas de código puedes crear esta función para tus aplicaciones.',
+    en: 'With a few lines of code you can create this function for your applications.'
+  },
+  [stack.JS],
+  'blue',
+  readMorePost
+)
+
 export const posts = [
+  readMore,
   clock,
   addIconsFA,
   centerElements,

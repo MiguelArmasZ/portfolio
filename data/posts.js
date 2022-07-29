@@ -189,3 +189,18 @@ export const clockPost = new Post(
   'https://codesandbox.io/s/unruffled-leaf-1xdrpf',
   linksText
 )
+
+export const readMorePost = new Post(
+  {
+    es: 'leer más',
+    en: 'read more'
+  },
+  'https://www.youtube.com/embed/ooTMEskIGy4',
+  {
+    es: 'Una forma sencilla de hacer esta funcionalidad, además de que puedes modificar fácilmente el número de palabras que quieres que se muestren.',
+    en: 'A simple way to do this functionality, plus you can easily modify the number of words you want to be displayed.'
+  },
+  'https://github.com/MiguelArmasZ/read-more',
+  'https://codesandbox.io/s/dazzling-frost-lml2u6',
+  linksText
+)
